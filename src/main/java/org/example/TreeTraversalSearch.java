@@ -6,11 +6,11 @@ import java.util.ArrayList;
 public class TreeTraversalSearch {
     public static void main(String[] args) {
         int arr[] = {1,4,2,3,6,7,9,6};
-        System.out.println("The searched value indexes in array are equal "+ TreeTraversalSearch(6,arr));
+        System.out.println("The searched value indexes in array are equal "+ treeTraversalSearch(6,arr));
     }
 
 
-    static ArrayList TreeTraversalSearch(int searchNum, int[] arr){
+    static ArrayList treeTraversalSearch(int searchNum, int[] arr){
         int searchIndex = -1;
         int searchIndexCntr = 0;
 
