@@ -9,15 +9,11 @@
 
 
 
-(let* ((my-array (make-array 7 :initial-contents '(9 3 4 2 5 12 13)))
-  (first-element(aref my-array 2))
-  (array-len(length my-array))
-  (counter 1)
-  (adjusted-counter(+ counter 1))
-  (adjusted-counter(+ adjusted-counter 1)))
-
-  
-  (format t "The index of element 5 in the given array: ~D" (traversal-tree-search my-array 5 0))
+(let ((my-array (make-array 7 :initial-contents '(9 3 4 2 5 12 13)))
+  (number 5))
+ (format t "The index of element ~D in the given array: ~D" number
+  (traversal-tree-search my-array number 0))
 )
+
 
 
